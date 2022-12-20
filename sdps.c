@@ -84,3 +84,11 @@ void sdps_init_ops(struct sdp_dev *dev)
 {
 	dev->ops = &sdps_protocol_ops;
 }
+
+
+int sdps_testmyfunc(unsigned char *buf, unsigned header_addr)
+{
+	
+	
+	return 0
+}
